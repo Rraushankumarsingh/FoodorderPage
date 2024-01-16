@@ -41,7 +41,7 @@ const CartPage = () => {
                         data-mdb-ripple-color="light"
                       >
                         <img
-                          src={data.image}
+                          src={data.images[0]}
                           className="w-100"
                           alt="Blue Jeans Jacket"
                         />
@@ -50,7 +50,7 @@ const CartPage = () => {
   
                     <div className="col-lg-5 col-md-6 mb-4 mb-lg-4">
                       <p className="text-black mr-10">
-                        <strong>{data.name}</strong>
+                        <strong>{data.brand}</strong>
                       </p>
   
                       <button
